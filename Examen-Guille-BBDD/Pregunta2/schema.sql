@@ -4,6 +4,7 @@ CREATE TABLE pokeapp(
     name TEXT UNIQUE NOT NULL,
     user TEXT UNIQUE NOT NULL,
     password TEXT NOT NULL,
+    email TEXT UNIQUE NOT NULL
 
     
 );
