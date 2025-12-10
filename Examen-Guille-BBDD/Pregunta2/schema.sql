@@ -1,7 +1,6 @@
-DROP TABLE IF EXISTS usuarios;
-CREATE TABLE usuarios(
+
+CREATE TABLE pokeapp(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    age INTEGER CHECK(age >= 18),
     name TEXT UNIQUE NOT NULL,
     user TEXT UNIQUE NOT NULL,
     password TEXT NOT NULL,
